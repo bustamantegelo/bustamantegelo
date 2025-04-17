@@ -15,11 +15,15 @@ export function Resume() {
           <a href={'mailto:bustamantegelo@gmail.com'}>Email</a>
       </div>
       <div className='px-[40px] basis-9/12'>
+        {/* PROFESSIONAL SUMMARY */}
         <div>
           <h2>Professional Summary</h2>
+          <p>Results-driven Full-Stack Web Developer with 6+ years of hands-on experience across the entire web development lifecycle. Proven expertise in front-end and back-end technologies including HTML, CSS, JavaScript, PHP, SQL, React.js, Vue.js, and Laravel. QualityLogic-trained in WCAG accessibility testing, with a strong commitment to building inclusive, user-centered web applications. Experienced in client relationship management, project planning, and end-to-end execution—skilled at translating client needs into technical solutions and consistently delivering projects on time and within scope.</p>
         </div>
+        {/* WORK EXPERIENCE */}
         <div>
           <h2>Work Experience</h2>
+          {/* QUANTRICS ENTERPRISES INC. */}
           <div>
             <h3>QUANTRICS ENTERPRISES INC.</h3>
             <div>
@@ -46,10 +50,78 @@ export function Resume() {
               </div>
             </div>
           </div>
+          {/* ORACLE NETSUITE (PHILIPPINES) CORPORATION */}
+          <div>
+            <h3>ORACLE NETSUITE (PHILIPPINES) CORPORATION</h3>
+            <p>June 2022 - Feb 2023</p>
+            <div>
+              <h4>TECHNICAL CONSULTANT</h4>
+              <ul className='list-disc'>
+                <li>Led full project lifecycle from client consultation to go-live, starting with in-depth analysis of client requirements and translating them into customized JavaScript applications using the SuiteScript framework. Designed, built, and deployed scalable solutions aligned with client goals, ensuring functionality, performance, and long-term maintainability.</li>
+                <li>Successfully managed and delivered three complex, full-scale projects from initiation to go-live, overseeing all phases including client consultation, planning, development, testing, and deployment. Ensured timely delivery, alignment with client expectations, and high-quality outcomes in fast-paced environments.</li>
+                <li>Designed and generated dynamic PDF templates with FreeMarker to fulfill unique client documentation needs.</li>
+                <li>Collaborated with clients to define and implement customized workflows for optimized operational efficiency.</li>
+                <li>Delivered technical consultations, interpreting client needs to architect and implement appropriate NetSuite configurations.</li>
+              </ul>
+            </div>
+          </div>
+          {/* QUANTRICS ENTERPRISES INC. */}
+          <div>
+            <h3>QUANTRICS ENTERPRISES INC.</h3>
+            <p>OCT 2021 - JUNE 2022</p>
+            <div>
+              <h4>FRONTEND WEB DEVELOPER</h4>
+              <ul className='list-disc'>
+                <li>Developed and implemented training simulations for Bell OrderMax and Blueprint using JSON-based step and action definitions, enhancing user proficiency.</li>
+                <li>Designed and built reusable React.js components for the Singleview application at Bell Canada, contributing to an efficient and maintainable codebase, with deployment via Git.</li>
+              </ul>
+            </div>
+          </div>
+          {/* CAFE24 PHILIPPINES */}
+          <div>
+            <h3>CAFE24 PHILIPPINES</h3>
+            <div>
+              <p>DEC 2020 - SEP 2021</p>
+              <div>
+                <h4>FRONTEND DEVELOPER</h4>
+                <ul className='list-disc'>
+                  <li>Demonstrated strong project management and analytical skills by proactively engaging with clients to understand their needs, translating requirements into actionable plans, and ensuring deliverables met or exceeded expectations. Investigated client-facing issues with precision, provided clear insights to stakeholders, and contributed to enhanced product reliability and client satisfaction.</li>
+                  <li>Addressed key frontend development challenges by architecting and building reusable JavaScript libraries with Node.js, fostering a more efficient and maintainable codebase.</li>
+                  <li>Improved the frontend development environment through the creation of targeted internal tools, directly contributing to improved team velocity and reduced development overhead.</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <p>MAR 2019 - DEC 2020</p>
+              <div>
+                <h4>WEB DEVELOPER (PHP DEVELOPER)</h4>
+                <ul className='list-disc'>
+                  <li>Developed and maintained a Cafe24 platform application to streamline seller banner management, significantly reducing complexities for eCommerce vendors.</li>
+                  <li>Designed, implemented, and supported a synchronization application for product data between the Cafe24 platform and the Next Engine inventory system (Japan), improving data accuracy and operational efficiency.</li>
+                  <li>Ensured code quality and application reliability through the creation and execution of unit and acceptance tests using PHPUnit.</li>
+                  <li>Utilized a full technology stack including HTML, CSS, JavaScript, Vue.js, Laravel, Docker, and Worker server to deliver scalable and maintainable solutions.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* GLOBAL INTEGRATED CONTACT FACILITIES, INC. (GICF, INC.) */}
+          <div>
+            <h3>GLOBAL INTEGRATED CONTACT FACILITIES, INC. (GICF, INC.)</h3>
+            <p>AUG 2018 - FEB 2019</p>
+            <div>
+              <h4>APPLICATION DEVELOPER</h4>
+              <ul className='list-disc'>
+                <li>Developed and implemented a web-based application for agents to log customer details, modernizing the outdated desktop CRM system. Utilized HTML, CSS, JavaScript, and PHP for development, and integrated call functionality using VICIdial. This initiative improved agent efficiency and data accuracy, and provided a streamlined interface for call management.</li>
+                <li>Spearheaded the end-to-end design, development, and deployment of a Digital Time Record (DTR) system for interns, significantly improving attendance tracking accuracy and reducing administrative workload. Built using HTML, CSS, JavaScript, and PHP, the system streamlined record-keeping and reporting processes. Additionally, independently developed and managed an inventory management system to monitor IT asset statuses (deployed, in stock, defective), enabling efficient resource allocation, minimizing losses, and improving overall asset visibility.</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        {/* SKILLS */}
         <div>
           <h2>Skills</h2>
         </div>
+        {/* EDUCATION */}
         <div>
           <h2>Education</h2>
           <div>
