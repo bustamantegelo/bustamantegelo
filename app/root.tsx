@@ -32,8 +32,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body>
-        {children}
+      <body className='container mx-auto'>
+        <header></header>
+        <main className='container flex flex-row pt-40'>
+          {children}
+        </main>
+        <footer></footer>
         <ScrollRestoration />
         <Scripts />
       </body>
