@@ -34,7 +34,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body className='container mx-auto'>
         <header></header>
-        <main className='container flex flex-row pt-40'>
+        <main className='flex'>
           {children}
         </main>
         <footer></footer>
