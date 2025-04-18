@@ -64,7 +64,6 @@ export function Resume() {
               </div>
             </div>
           ))}
-          
         </section>
       </div>
     </>
